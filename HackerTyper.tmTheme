@@ -16,7 +16,7 @@
 				<key>background</key>
 				<string>#000000</string>
 				<key>caret</key>
-				<string>#A7A7A7</string>
+				<string>#00bbff</string>
 				<key>foreground</key>
 				<string>#00ff00</string>
 				<key>invisibles</key>
@@ -52,6 +52,19 @@
 				<string>#FFFFFF</string>
 			</dict>
 		</dict>
+		<dict>
+            <key>name</key>
+            <string>Block Cursor</string>
+            <key>scope</key>
+            <string>block_cursor</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#dedede</string>
+                <key>background</key>
+                <string>#FF420077</string>
+            </dict>
+        </dict>
 		<dict>
 			<key>name</key>
 			<string>Entity</string>
@@ -269,6 +282,28 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>C/C++ "#include"</string>
+			<key>scope</key>
+			<string>string.quoted.double.include</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>C/C++ &lt;include&gt;</string>
+			<key>scope</key>
+			<string>string.quoted.other.lt-gt.include</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#0CC4FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>c C/C++ Preprocessor Line</string>
 			<key>scope</key>
 			<string>meta.preprocessor.c</string>
@@ -280,15 +315,50 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>c C/C++ Preprocessor Directive</string>
+			<string>C/C++ Preprocessor Directive</string>
 			<key>scope</key>
-			<string>meta.preprocessor.c keyword</string>
+			<string>meta.preprocessor keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AFC4DB</string>
+				<string>#8189FF</string>
 			</dict>
 		</dict>
+
+
+		<!-- New Addition -->
+
+		<dict>
+			<key>name</key>
+			<string>Preprocesses C/C++</string>
+			<key>scope</key>
+			<string>meta.preprocessor.c.include, meta.preprocessor.c.include keyword.control.import.include.c, meta.preprocessor.c, meta.preprocessor.c keyword.control.import.c, meta.preprocessor.macro.c,meta.preprocessor.macro.c keyword.control.import.define.c</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#8996A8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Include C/C++ highlight</string>
+			<key>scope</key>
+			<string>entity.name.function.preprocessor.c, string.quoted.double.include.c, string.quoted.other.lt-gt.include.c</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#0CC4FF</string>
+			</dict>
+		</dict>
+
+		<!-- End of new addition -->
+
+
+
 		<dict>
 			<key>name</key>
 			<string>j Entity Name Type</string>

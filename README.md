@@ -2,7 +2,7 @@ SublimeTheme_HackerTyper
 =========================
 
 ![GithHub Sublime Theme](https://raw.github.com/pakhandi/SublimeScheme_HackerTyper/master/screenshot.PNG)
-
+![GithHub Sublime Theme](https://raw.github.com/pakhandi/SublimeScheme_HackerTyper/master/screenshot1.png)
 ## Installation 
 
 ### Method 1) Using [Package Control](https://sublime.wbond.net)
